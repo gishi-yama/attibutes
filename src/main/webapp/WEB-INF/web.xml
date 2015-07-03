@@ -20,12 +20,12 @@
 
 	<servlet>
 		<servlet-name>AttributeServlet</servlet-name>
-		<servlet-class>com.mycompany.AttributeServlet</servlet-class>
+		<servlet-class>com.mycompany.servlet.AttributeServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>AttributeServlet</servlet-name>
-		<url-pattern>/AttributeServlet</url-pattern>
+		<url-pattern>/servlet/AttributeServlet</url-pattern>
 	</servlet-mapping>
 
 	<filter>
@@ -33,12 +33,12 @@
 		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
 		<init-param>
 			<param-name>applicationClassName</param-name>
-			<param-value>com.mycompany.WicketApplication</param-value>
+			<param-value>com.mycompany.wicket.WicketApplication</param-value>
 		</init-param>
 	</filter>
 
 	<filter-mapping>
 		<filter-name>wicket.myproject</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>wicket/*</url-pattern>
 	</filter-mapping>
 </web-app>

@@ -1,4 +1,4 @@
-package com.mycompany;
+package com.mycompany.wicket;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Collections;
