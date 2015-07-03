@@ -39,6 +39,6 @@
 
 	<filter-mapping>
 		<filter-name>wicket.myproject</filter-name>
-		<url-pattern>wicket/*</url-pattern>
+		<url-pattern>/wicket/*</url-pattern>
 	</filter-mapping>
 </web-app>
