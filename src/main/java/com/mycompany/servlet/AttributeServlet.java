@@ -6,10 +6,12 @@ import java.util.Collections;
 import java.util.stream.Collectors;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+@WebServlet("/servlet/AttributeServlet")
 public class AttributeServlet extends HttpServlet {
 	private static final long serialVersionUID = -4989547477543963163L;
 
